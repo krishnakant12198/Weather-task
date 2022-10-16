@@ -1,0 +1,80 @@
+body{ 
+     
+    background: linear-gradient(#580272, #4a4a52); 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    padding-bottom: 80%; 
+    color: rgb(255, 128, 24); 
+} 
+ 
+.app-wrap{ 
+    /*background: linear-gradient(#9509bc, #4a4a52);*/ 
+    margin: 100px 100px 100px 100px; 
+    padding-bottom: 40px; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+} 
+ 
+input{ 
+    width: 300px; 
+    height: 40px; 
+    border-top-right-radius:10px ; 
+    border-bottom-left-radius: 10px; 
+} 
+.location{ 
+    color: white; 
+} 
+ 
+.current{ 
+    color: white; 
+} 
+ 
+#temp{ 
+    font-size: 400%; 
+    text-shadow: 10px; 
+    text-shadow:  2px 2px #FF0000; 
+} 
+#weather{ 
+    font-size: 200%; 
+} 
+#hi-low 
+{ 
+    font-size: 200%; 
+} 
+#error{ 
+    color: red; 
+    font-size: 200%; 
+} 
+ 
+.grid 
+{ 
+    display: grid; 
+    grid-template-columns: auto auto; 
+    color: white; 
+ 
+} 
+img 
+{ 
+    width: 100px; 
+    height: 100px; 
+} 
+ 
+.heading{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+} 
+ 
+#heading 
+{ 
+    background-image: url("images/Weather-forecast.jpg"); 
+    color: white; 
+} 
+ 
+#above-head{ 
+    width: 300px; 
+    height: 200px; 
+    text-align: center; 
+}
